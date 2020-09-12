@@ -31,7 +31,7 @@ body {
 /* the portfolio pages width's max width is restricted as shown below */
 #portfolio-container {
     max-width: 75%;
-    margin: 30px 20px;
+    margin: 40px 20px;
 }
 /* the images on the porfolio page are sized as shown below */
 .portfolio-image {

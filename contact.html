@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Contact</title>
 
      <!-- bootstrap CDN -->
@@ -17,12 +18,16 @@
      <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+  <!-- a bootstrap navbar that explands on large screen and a hamburger on smaller screen -->
+  <!-- the bavbar is also made to be fixed-top - scrolling the page down will not hide it -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <!-- a bold, written in white, and given a bootstrap info background color -->
         <a class="navbar-brand bg-info about font-weight-bold text-white about" href="./index.html">Girma</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- ml-auto pushes the nav items to the right -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
@@ -36,44 +41,24 @@
           </ul>
         </div>
     </nav>
-    <!-- <main class="container">
-      <section class="row">
-        <div class="col-md-8">
-          <form class="block form-horizontal" action="mailto:mkarkuody@yahoo.com">
-            <h1 class="block-header">Contact</h1>
-            <hr />
-            <div class="form-group">
-              <label for="name" class="col-sm-2 control-label">Name</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" placeholder="Name" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="email" class="col-sm-2 control-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-sm-2 control-label" for="msg">Message</label>
-              <div class="col-sm-10">
-                <textarea id="msg" class="form-control" rows="3" placeholder="Message" required></textarea>
-              </div>
-            </div>
-            <button class="submit-btn">Submit</button>
-          </form>
-        </div>
-      </section>
-    </main> -->
-    <main class="container py-5 my-5">
-        <div class="row my-5">            
+    <!-- a more semantic main tag is used as this is the main section of the contact page -->
+    <!-- bootstrap container makes it to take less than the full width padding and margin top and botton
+    are also used to push the main container down, especially because we have a fixed top navbar -->
+    <main  class="container py-5 my-5">
+        <div class="row ">    
+            <!-- on midium and larger screen the card takes eight grids out of twelve -->
+            <!-- which also meand on smaller than medium screen sizes the card takes all the 12 grids -->
             <div class="col-md-8">
-                <div class="card px-3">
-                    <div class="card-body">
+              <!-- I decided to use bootstrap card because i believe it looks good and applying card 
+              for such applications is appropraite. padding on left and right is also used-->              
+                <div class="card px-3"> 
+                    <div class="card-body">                      
                         <h1 class="card-title text-info about">Contact</h1>
                         <hr>
+                        <!-- bootstrap form is used - mailto functionaliy is also added to it -->
                         <form action="mailto:girma.derib@gmail.com" method="get" enctype="text/plain">
                             <div class="form-group">
+                              <!-- all the inputs are made to be required -->
                               <label for="usr">Name:</label>                
                               <input type="text" class="form-control" id="usr" placeholder="Name" required>
 
@@ -82,8 +67,7 @@
 
                               <label for="message">Message:</label>
                               <textarea class="form-control" rows="5" id="message" placeholder="Message" required></textarea>
-                              
-                              <a type="submit" class="btn btn-lg btn-info rounded-0 my-3">Submit</a>
+                               <button class="btn btn-lg btn-info rounded-0 mt-3" type="submit">Submit</button>
                             </div>                            
                         </form>  
                     </div>
@@ -91,28 +75,30 @@
             </div>            
         </div>
     </main>
-    <footer class="bg-dark text-muted py-3 text-center footer">   
-      <!-- <div class="container text-center"> -->
-       
-       <a class="text-light"  href="">&#169;Girma-2020</a> 
+    <!-- bootstrap footer with social media link is used -->
+    <!-- font-awesome icons are used for social media icons -->
+    <footer class="bg-dark text-muted py-3 text-center footer">  
+      <div class="container text-center"> 
+       <!-- all the contents in the footer are made text-muted -->
+       <a class="text-muted"  href="https://girmad.github.io/">&#169;Girma-2020</a> 
        <div class="icons float-right pr-5">
-            <a class="text-light" href="https://twitter.com/?lang=en" target="_blank">
+            <a class="text-muted" href="https://twitter.com/?lang=en" target="_blank">
                 <i class="fab fa-twitter "></i>
             </a>
-            <a class="text-light" href="https://www.facebook.com/gerrymanderib" target="_blank">
+            <a class="text-muted" href="https://www.facebook.com/gerrymanderib" target="_blank">
                 <i class="fab fa-facebook"></i>
             </a>
-            <a class="text-light" href="https://www.linkedin.com/feed/" target="_blank">
+            <a class="text-muted" href="https://www.linkedin.com/feed/" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a class="text-light" href="https://girmad.github.io/" target="_blank">
+            <a class="text-muted" href="https://girmad.github.io/" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
         </div>  
-      <!-- </div>      -->
+      </div>      
     </footer>
     
-    <!-- JS files to support some bootsrtap features -->
+    <!-- JS files to support some bootsrtap features mainly the humberger on the navbar on smaller screen -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

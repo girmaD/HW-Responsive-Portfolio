@@ -1,10 +1,12 @@
-
+/* the html tag is made relative to make the footer absolutely positioned */
 html {
     position: relative;
     min-height: 100%;
 }
 body {
-    background-image: url(https://www.transparenttextures.com/patterns/dark-leather.png);
+    /* background image  */
+    background-image: url(https://thumbs.dreamstime.com/t/d-muted-background-vintage-room-illustration-dusty-abstract-wall-floor-faint-light-soft-shade-studio-interior-yellow-156375539.jpg);
+    /* the background image is made to cover the whole page fully */
     background-size: cover;
     margin: 0 0 100px;
 }  
@@ -13,29 +15,34 @@ body {
     left: 0;
     bottom: 0;   
     width: 100%;
+    /* the footer has a shadow on y-axis upwards with the colors shown above */
     box-shadow: 0 -10px rgb(91, 192, 222, 1);
 } 
-#girma {
+/* the image of the index is sized as shown below */
+#about-image {
     width: 15rem;
     height: 18rem;
 }
+/* the navbar brand and the headings in each page are given a font-family and weight as shown below */
 .about {
-    font-family: 'Libre Baskerville', serif; 
+    font-family: Georgia, 'Libre Baskerville', serif; 
     font-weight: 700;
 }
+/* the portfolio pages width's max width is restricted as shown below */
 #portfolio-container {
     max-width: 75%;
+    margin: 30px 20px;
 }
-@media screen and (max-width: 500px) {
-    #portfolio-container {
-        /* width: 100%; */
-        margin: 20px 0;
-    }
-}
-/* .navbar-brand {
-    margin-left: 2.2rem;
-} */
+/* the images on the porfolio page are sized as shown below */
 .portfolio-image {
     width: 350px;
     height: 350px;
+}
+/* Although bootstrap is used though out the html files, i find it imperative to use media query
+to fix problems with the portfolio page on smaller screens and*/
+@media screen and (max-width: 500px) {
+    #portfolio-container {
+        width: 100%;
+        margin: 30px auto;       
+    }
 }

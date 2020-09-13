@@ -1,12 +1,13 @@
 # Responsive-Portfolio
+* view the [GitHub-repo](https://github.com/girmaD/Responsive_Portfolio)
+* View the [depolyed application](https://girmad.github.io/Responsive_Portfolio/index.html)
+___
 ## Table of contents
+* Introduction
 * Index.html
 * Contact.html
 * Portfolio.html
 * Assets folder
-    * CSS
+    * CSS/style.css
     * Images
-This is my portfolio, describing my biograpghy, images, and contact information.
-
-Three html files were created to build a portfolio site.
-This is a my portfolio. It is made to be responsive for different screen sizes. 
+______

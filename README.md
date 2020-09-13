@@ -20,7 +20,7 @@ All files contain a responsive bootstrap **navbar** and **footer**. The Navbar c
 
 ### Index.html
 The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. A snapshot of the page is provided below:
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](./assets/images/index(2).png "About Me")
 ### Contact.html
 The contact.html renders a way to contact me. Name, email and message is are required to make a successful contact.
 ### Portfolio.html
@@ -28,5 +28,5 @@ This page renders a portfolio composed of images. Bootstrap grid system is effec
 ### Assets folder
 The Assets folder contains two sub-folders. The first one is the CSS sub-folder, which in turn contains style.css file. The style.css files accomplishes two major issues - making the footer positioned at the bottom of the page and on potfolio page only applying a media query on smaller screen conveyance. The second sub-folder is a images sub-folder. This sub-folder contains images that are used in different parts of the website.
 
-Should you have any questions about this repo of the deployed page, contact me on [Girma Ebssa](mailto:girma.derib@gmail.com?)
+Should you have any questions about this repo of the deployed page, contact me on [girma.derib@gmail.com](mailto:girma.derib@gmail.com)
 

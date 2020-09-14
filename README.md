@@ -22,8 +22,12 @@ All files contain a responsive bootstrap **navbar** and **footer**. The Navbar c
 ![Alt text](./assets/images/index.png)
 
 ### Index.html
+<<<<<<< HEAD
 The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. A snapshot of the page is provided below:
 
+=======
+The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. 
+>>>>>>> 24db14678d0cdad8e0c2ea374bdbf8468859db63
 ### Contact.html
 The contact.html renders a way to contact me. Name, email and message is are required to make a successful contact.
 ### Portfolio.html

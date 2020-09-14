@@ -10,6 +10,7 @@ body {
     background-size: cover;
     margin: 0 0 100px;
 }  
+/* the footer is absolutely positioned at the bottom of the page relative to the html tag */
 .footer {
     position: absolute;
     left: 0;
@@ -28,7 +29,7 @@ body {
     font-family: Georgia, 'Libre Baskerville', serif; 
     font-weight: 700;
 }
-/* the portfolio pages width's max width is restricted as shown below */
+/* the portfolio pages width's max-width is restricted as shown below */
 #portfolio-container {
     max-width: 75%;
     margin: 40px 20px;
@@ -37,12 +38,4 @@ body {
 .portfolio-image {
     width: 350px;
     height: 350px;
-}
-/* Although bootstrap is used though out the html files, i find it imperative to use media query
-to fix problems with the portfolio page on smaller screens and*/
-@media screen and (max-width: 500px) {
-    #portfolio-container {
-        width: 100%;
-        margin: 30px auto;       
-    }
 }

@@ -3,13 +3,13 @@
 * View the [depolyed application](https://girmad.github.io/Responsive_Portfolio/index.html)
 ___
 ## Table of contents
-* [Introduction](###Introduction)
-* [Index.html](###Index.html)
-* [Contact.html](###Contact.html)
-* [Portfolio.html](###Portfolio.html)
-* [Assets folder](###Assets folder)
-    * CSS/style.css
-    * Images
+* [Introduction](#Introduction)
+* [Index.html](#Index.html)
+* [Contact.html](#Contact.html)
+* [Portfolio.html](#Portfolio.html)
+* [Assets folder](#Assets-folder)
+    * [CSS/style.css](#css)
+    * [Images](#Images)
 ______
 ### Introduction
 The Obejective of this project is to build a responsive portfolio website. The wesbite has three pages. Three html files render their respective pages. Each html files has been validated by html W3 validation services. The details of each html page is discussed below.

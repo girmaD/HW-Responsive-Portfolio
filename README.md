@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Responsive_Portfolio
 * View the [GitHub-repo](https://github.com/girmaD/Responsive_Portfolio)
 * View the [depolyed application](https://girmad.github.io/Responsive_Portfolio/index.html)
 ___
@@ -8,7 +8,7 @@ ___
 * [Contact](#Contact)
 * [Portfolio](#Portfolio)
 * [Assets folder](#Assets-folder)
-    * [CSS/style](#CSS/style)
+    * [CSS folder](#CSS-folder)
     * [Images folder](#Images-folder)
 ______
 ### Introduction
@@ -37,7 +37,7 @@ This page renders a portfolio composed of images. Bootstrap grid system is effec
 ### Assets folder
 The Assets folder contains two sub-folders. The first one is the CSS sub-folder, which in turn contains style.css file. The style.css files accomplishes two major issues - making the footer positioned at the bottom of the page and on potfolio page only applying a media query on smaller screen conveyance. The second sub-folder is a images sub-folder. This sub-folder contains images that are used in different parts of the website.
 
-* #### CSS/style
+* #### CSS folder
 The CSS folder and the enclosed style.css files contains the css documents that are used to style the pages. Though bootstrap is used thoughout the html files, little css was used to accomplish certain tasks in relation to the footer and image sizing.
 
 

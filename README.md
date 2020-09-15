@@ -4,10 +4,10 @@
 ___
 ## Table of contents
 * [Introduction](###Introduction)
-* [Index.html](### Index.html)
-* [Contact.html](### Contact.html)
-* [Portfolio.html](### Portfolio.html)
-* [Assets folder](### Assets folder)
+* [Index.html](###Index.html)
+* [Contact.html](###Contact.html)
+* [Portfolio.html](###Portfolio.html)
+* [Assets folder](###Assets folder)
     * CSS/style.css
     * Images
 ______

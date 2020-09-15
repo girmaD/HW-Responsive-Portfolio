@@ -18,18 +18,18 @@ The website is made mainly with **Bootstrap**. Using Bootstrap grid system has m
 
 All files contain a responsive bootstrap **navbar** and **footer**. The Navbar contains nav-links that can be clicked to go to their respective pages of the website. the nav-links turn in to humburger on medium and smaller screen sizes, and expands on large and above screen sizes. Likewise, the footer is responsive on all screen sizes and contains social media links with font-awesome icons.
 
-### Index.html
+### Index
 
 The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes.The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. 
 ###### Sample Screen shot Image
 ![Alt text](./assets/images/index.png)
 
-### Contact.html
+### Contact
 The contact.html renders a way to contact me. Name, email and message is are required to make a successful contact.
 ###### Sample Screen shot Image
 ![Alt text](./assets/images/index.png)
 
-### Portfolio.html
+### Portfolio
 This page renders a portfolio composed of images. Bootstrap grid system is effectively applied to make the images web responsive for a variety of screen sizes. The images take two columns on large and above screen sizes. But on screen sizes on medium and smaller screen sizes - the images take one columns on each row.
 ###### Sample Screen shot Image
 ![Alt text](./assets/images/index.png)

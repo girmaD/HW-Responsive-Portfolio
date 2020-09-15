@@ -4,9 +4,9 @@
 ___
 ## Table of contents
 * [Introduction](#Introduction)
-* [Index.html](#Index.html)
-* [Contact.html](#Contact.html)
-* [Portfolio.html](#Portfolio.html)
+* [Index](#Index)
+* [Contact](#Contact)
+* [Portfolio](#Portfolio)
 * [Assets folder](#Assets-folder)
     * [CSS/style.css](#css)
     * [Images](#Images)

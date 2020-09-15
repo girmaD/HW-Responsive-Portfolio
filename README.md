@@ -8,8 +8,8 @@ ___
 * [Contact](#Contact)
 * [Portfolio](#Portfolio)
 * [Assets folder](#Assets-folder)
-    * [CSS/style.css](#css)
-    * [Images](#Images)
+    * [CSS/style](#CSS/style)
+    * [Images folder](#Images-folder)
 ______
 ### Introduction
 The Obejective of this project is to build a responsive portfolio website. The wesbite has three pages. Three html files render their respective pages. Each html files has been validated by html W3 validation services. The details of each html page is discussed below.

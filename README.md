@@ -3,7 +3,7 @@
 * View the [depolyed application](https://girmad.github.io/Responsive_Portfolio/index.html)
 ___
 ## Table of contents
-* [Introduction](### Introduction)
+* [Introduction](###Introduction)
 * [Index.html](### Index.html)
 * [Contact.html](### Contact.html)
 * [Portfolio.html](### Portfolio.html)

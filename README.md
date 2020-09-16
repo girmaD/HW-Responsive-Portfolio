@@ -20,17 +20,19 @@ All files contain a responsive bootstrap **navbar** and **footer**. The Navbar c
 
 ### Index
 The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes.The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. 
+
 ###### Screen shot of index page
 ![Alt text](./assets/images/index.png)
 
 ### Contact.html
 The contact.html renders a way to contact me. Name, email and message is are required to make a successful contact.
+
 ##### Screen shot of Contact Page
 ![Alt text](./assets/images/contact.png)
 
 ### Portfolio
 This page renders a portfolio composed of images. Bootstrap grid system is effectively applied to make the images web responsive for a variety of screen sizes. The images take two columns on large and above screen sizes. But on screen sizes on medium and smaller screen sizes - the images take one columns on each row.
-<<<<<<< HEAD
+
 ##### Screen shot of portfolio page
 ![Alt text](./assets/images/portfolio.png)
 

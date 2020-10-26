@@ -1,7 +1,7 @@
 # Responsive_Portfolio
 * View the [GitHub-repo](https://github.com/girmaD/Responsive_Portfolio)
 * View the [depolyed application](https://girmad.github.io/Responsive_Portfolio/index.html)
-* View [my resume](./assets/resume-Girma.pdf)
+
 ___
 ## Table of contents
 * [Introduction](#Introduction)
@@ -23,7 +23,7 @@ All files contain a responsive bootstrap **navbar** and **footer**. The Navbar c
 The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes.The index.html files renders the about me page. The page contain an images that floats and text wraps it on the right and below. Bootstrap gird system is effeciently applied so that the page is responsive on all screen sizes. 
 
 ###### Screen shot of index page
-![Alt text](./assets/images/index.png)
+![Alt text](./assets/images/aboutMe.png)
 
 ### Contact.html
 The contact.html renders a way to contact me. Name, email and message is are required to make a successful contact.

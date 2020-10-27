@@ -47,5 +47,8 @@ The CSS folder and the enclosed style.css files contains the css documents that 
 * #### Images folder
 This folder contains images used to build this web responsive page.
 
+## License
+- MIT
+
 Should you have any questions about this repo of the deployed page, contact me on [girma.derib@gmail.com](mailto:girma.derib@gmail.com)
 
